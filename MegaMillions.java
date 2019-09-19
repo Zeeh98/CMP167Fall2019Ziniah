@@ -1,5 +1,6 @@
-import java.util.Scanner;
 package Week2;
+
+import java.util.Scanner;
 
 /**
  * 
@@ -17,15 +18,16 @@ public class MegaMillions {
 		Random randGen = new Random();
 		Scanner scnr = new Scanner(System.in);
 		
+		
 		//Declare variable to hold the amount of dollars.
 		int dollar;
-
+		
 		//Declare variable for the cost of ticket.
 		int ticketCost;
 		
 		//Prompt the user for the amount of dollars to bet on.
 		System.out.println("Enter the amount of dollars to bet on: ");
-
+		
 		//Store the amount into amount of dollar variables.
 		dollar = scnr.nextInt();
 		
@@ -39,9 +41,17 @@ public class MegaMillions {
 		int num4;
 		int num5;
 		int num6;
+		
+		num1 = scnr.nextInt();
+		num2 = scnr.nextInt();
+		num3 = scnr.nextInt();
+		num4 = scnr.nextInt();
+		num5 = scnr.nextInt();
+		num5 = scnr.nextInt();
+		
 		//Randomly generate six numbers and compare them.
 		System.out.println(randGen.nextInt(60)+1);
-		
+		if (dollars <)
 		
 		
 	}
